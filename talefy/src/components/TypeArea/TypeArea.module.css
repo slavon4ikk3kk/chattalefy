@@ -1,0 +1,55 @@
+.input{
+    border: 1px solid purple;
+    width: calc(100% - 80px);
+    padding: 20px 40px;
+    background: transparent;
+    font-size: 30px;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+}
+.arrow{
+    width: 40px;
+    height: 40px;
+}
+.button{
+    background: orange;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.form{
+    margin-top: 10px;
+    position: relative;
+}
+.rect{
+    background: white;
+}
+.loader {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 32px 0 #fff, -32px 0 #fff;
+    position: relative;
+    animation: flash 0.5s ease-out infinite alternate;
+  }
+  
+  @keyframes flash {
+    0% {
+      background-color: #FFF2;
+      box-shadow: 32px 0 #FFF2, -32px 0 #FFF;
+    }
+    50% {
+      background-color: #FFF;
+      box-shadow: 32px 0 #FFF2, -32px 0 #FFF2;
+    }
+    100% {
+      background-color: #FFF2;
+      box-shadow: 32px 0 #FFF, -32px 0 #FFF2;
+    }
+  }
+        
+    

@@ -1,0 +1,25 @@
+.heroAnswer{
+    display: flex;
+}
+.heroImg{
+    display: block;
+    width: 75px;
+    height: auto;
+}
+.heroName{
+    color: rgb(80, 4, 80);
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.heroText{
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heroTextArea{
+    background-color: purple;
+    width: 70%;
+    padding: 15px; 
+}

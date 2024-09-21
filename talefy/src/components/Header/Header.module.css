@@ -1,0 +1,42 @@
+.firstWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 250px;
+}
+.mainText{
+    color: white;
+    font-size: 30px;
+}
+.name{
+    color: white;
+    font-size: 35px;
+}
+.secondWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+}
+.thirdWrap{
+    display: flex;
+    gap: 10px;
+}
+.pifagor{
+    width: 200px;
+    height: 200px;
+}
+.messages{
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 15px ;
+}
+.answers{
+    background: orange;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 5px;
+}
