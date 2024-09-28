@@ -16,12 +16,6 @@ const Header = () => {
        </div>
        <img src={images.info}></img>
       </div>
-      <div className={s.messages}>
-           <p>some text</p>
-      </div>
-      <div className={s.answers}>
-        <p>some answer</p>
-      </div>
     </div>
   )
 }
