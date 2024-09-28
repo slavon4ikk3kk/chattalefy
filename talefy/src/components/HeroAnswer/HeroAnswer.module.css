@@ -1,32 +1,31 @@
-.input{
-    border: 1px solid purple;
-    width: calc(100% - 80px);
-    padding: 20px 40px;
-    background: transparent;
-    font-size: 30px;
-    outline: none;
+.heroAnswer{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+.heroImg{
+    display: block;
+    width: 75px;
+    height: auto;
+}
+.heroName{
+    color: rgb(80, 4, 80);
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.heroText{
     color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heroTextArea{
+    background-color: purple;
+    width: 70%;
+    padding: 15px;
     border-radius: 5px;
-}
-.arrow{
-    width: 40px;
-    height: 40px;
-}
-.button{
-    background: orange;
-    border-radius: 5px;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    outline: none;
-}
-.form{
-    margin-top: 10px;
-    position: relative;
-}
-.rect{
-    background: white;
+    text-align: left; 
 }
 .loader {
     width: 16px;
@@ -53,4 +52,3 @@
     }
   }
         
-    

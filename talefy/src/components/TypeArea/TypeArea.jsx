@@ -2,14 +2,15 @@ import React, {useState} from 'react'
 import s from "./TypeArea.module.css";
 import images from "../../assets/index.js"
 const TypeArea = ({messages, setMessages}) => {
-    const [inputValue, setInputValue] = useState();
+    const [inputValue, setInputValue] = useState('');
       
     function HandleSubmit(e){
       e.preventDefault();
       setMessages([...messages, inputValue]);
+      setInputValue('');
     }
       function HandleInput(e){
-          setInputValue(e.target.value)
+          setInputValue(e.target.value);
     }
   return (
     <form onSubmit={HandleSubmit} className={s.form}>
