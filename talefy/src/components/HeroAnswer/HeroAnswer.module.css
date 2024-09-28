@@ -28,12 +28,14 @@
     text-align: left; 
 }
 .loader {
+    display: block;
     width: 16px;
     height: 16px;
     border-radius: 50%;
     background-color: #fff;
     box-shadow: 32px 0 #fff, -32px 0 #fff;
     position: relative;
+    left: 30px;
     animation: flash 0.5s ease-out infinite alternate;
   }
   
