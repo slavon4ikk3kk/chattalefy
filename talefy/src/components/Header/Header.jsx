@@ -1,6 +1,7 @@
 import React from 'react';
 import s from "./Header.module.css";
 import images from "../../assets/index.js";
+import Tooltip from "@mui/material/Tooltip"
 const Header = () => {
 
   return (
@@ -14,7 +15,9 @@ const Header = () => {
        <img src={images.pifagor} className={s.pifagor}></img>
        <p className={s.name}>PIFAGOR</p>
        </div>
-       <img src={images.info}></img>
+       <Tooltip title="Info">
+       <img src={images.info} className={s.info}></img>
+       </Tooltip>
       </div>
     </div>
   )

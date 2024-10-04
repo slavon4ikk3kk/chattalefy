@@ -40,3 +40,6 @@
     padding: 12px;
     margin: 10px 5px;
 }
+.info{
+    cursor: pointer;
+}
